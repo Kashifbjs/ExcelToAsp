@@ -1,0 +1,52 @@
+﻿@model LoginViewModel
+@{
+	ViewData["Title"] = "Login";
+	Layout = "~/Views/Shared/_LayoutLoginSignup.cshtml";
+}
+
+<form method="post">
+	<div class="border p-3 mt-5" style="margin-left:200px; margin-right:200px">
+		<div class="row pb-3">
+			<h2>
+				Signin
+			</h2>
+			<hr />
+		</div>
+		<h6 class="text-success text-center">
+			@TempData["SuccessMsg"]
+			@TempData["ErrorMsg"]
+		</h6>
+		<div class="row m-2 mb-3">
+			<label asp-for="UserName"></label>
+			<input asp-for="UserName" type="text" class="form-control" />
+			<span asp-validation-for="UserName" class="text-danger"></span>
+		</div>
+		<div class="row m-2 mb-3">
+			<label asp-for="UserPassword"></label>
+			<input id="password" asp-for="UserPassword" type="password" class="form-control" />
+			<i id="open" class="bi bi-eye-fill" onclick="ChangeType1()" style="margin-top: -35px; margin-left: 800px; cursor: pointer;"></i>
+			<i id="close" class="bi bi-eye-slash-fill" onclick="ChangeType2()" style="margin-left: 800px; margin-top: -35px; cursor: pointer; display:none;"></i>
+			<span asp-validation-for="UserPassword" class="text-danger"></span>
+		</div>
+
+		<button class="btn btn-primary" type="submit">
+			Sign In
+		</button>
+		<a asp-action="Signup" asp-controller="Account">Not a member? Sign Up</a>
+	</div>
+
+</form>
+
+<script type="text/javascript">
+	function ChangeType1() {
+		document.getElementById("open").style.display = "none";
+		document.getElementById("close").style.display = "block";
+		document.getElementById("password").type = "text";
+	}
+
+	function ChangeType2() {
+		document.getElementById("open").style.display = "block";
+		document.getElementById("close").style.display = "none";
+		document.getElementById("password").type = "password";
+	}
+</script>

@@ -1,0 +1,103 @@
+﻿@model Vendor
+
+<script type="text/javascript">
+	function validateForm() {
+		if (document.getElementById("VendorName").value == "") {
+			alert("Vendor Name cannot be empty");
+			return false;
+		}
+		else if (document.getElementById("VendorEmail").value == '') {
+			alert("Vendor Email cannot be empty");
+			return false;
+		}
+		else if (document.getElementById("VendorPhone").value == '') {
+			alert("Contact number cannot be empty");
+			return false;
+		}
+		else if (document.getElementById("VendorShopName").value == '') {
+			alert("Shop name cannot be empty");
+			return false;
+		}
+		else {
+			return true;
+		}
+	}
+</script>
+
+<form method="post" onsubmit="return validateForm()">
+	<div class="border p-3 mt-4">
+		<div class="row pb-3">
+			<h2>
+				Create Vendor
+			</h2>
+			<hr />
+		</div>
+		<h6 class="text-success text-center">
+			@TempData["SuccessMsg"]
+			@TempData["ErrorMsg"]
+		</h6>
+		<div class="row m-3 mb-3">
+			<label asp-for="VendorId"></label>
+			<input readonly asp-for="VendorId" value="@ViewBag.NewVendorId" type="text" class="form-control" />
+			<span asp-validation-for="VendorId" class="text-danger"></span>
+		</div>
+		<div class="row m-3 mb-3">
+			<label asp-for="VendorName"></label>
+			<input id="VendorName" asp-for="VendorName" type="text" class="form-control" />
+			<span asp-validation-for="VendorName" class="text-danger"></span>
+		</div>
+		<div class="row m-3 mb-3">
+			<label asp-for="VendorEmail"></label>
+			<input id="VendorEmail" asp-for="VendorEmail" type="email" class="form-control" />
+			<span asp-validation-for="VendorEmail" class="text-danger"></span>
+		</div>
+		<div class="row m-3 mb-3">
+			<label asp-for="VendorPhone"></label>
+			<input id="VendorPhone" asp-for="VendorPhone" type="tel" class="form-control" />
+			<span asp-validation-for="VendorPhone" class="text-danger"></span>
+		</div>
+		<div class="row m-3 mb-3">
+			<label asp-for="VendorAddress"></label>
+			<textarea asp-for="VendorAddress">
+			</textarea>
+		</div>
+		<div class="row m-2 mb-3">
+			<div class="col-md-6 mb-4">
+				<label asp-for="VendorCity"></label>
+				<input asp-for="VendorCity" type="text" class="form-control" />
+			</div>
+			<div class="col-md-6 mb-4">
+				<label asp-for="VendorCountry"></label>
+				<input asp-for="VendorCountry" type="text" class="form-control" />
+			</div>
+		</div>
+		<div class="row m-3 mb-3">
+			<label asp-for="VendorShopName"></label>
+			<input asp-for="VendorShopName" type="text" class="form-control" />
+			<span asp-validation-for="VendorShopName" class="text-danger"></span>
+		</div>
+		<div class="row m-3 mb-3">
+			<label asp-for="VendorShopAddress"></label>
+			<textarea asp-for="VendorShopAddress">
+			</textarea>
+		</div>
+		<div class="row m-2 mb-3">
+			<div class="col-md-6 mb-4">
+				<label asp-for="VendorShopCity"></label>
+				<input asp-for="VendorShopCity" type="text" class="form-control" />
+			</div>
+			<div class="col-md-6 mb-4">
+				<label asp-for="VendorShopCountry"></label>
+				<input asp-for="VendorShopCountry" type="text" class="form-control" />
+			</div>
+		</div>
+		<input asp-for="CreatedDate" type="hidden" value="@DateTime.Now" class="form-control" />
+		<input asp-for="UpdatedDate" type="hidden" value="@DateTime.Now" class="form-control" />
+		<input asp-for="IsActive" type="hidden" value="true" class="form-control" />
+		<button class="btn btn-primary" type="submit">
+			Create
+		</button>
+	</div>
+	<a asp-action="Index" asp-controller="Vendor">Back to List</a>
+</form>
+

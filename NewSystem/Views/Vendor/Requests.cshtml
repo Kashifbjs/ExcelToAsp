@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Vendor>
+@{
+    ViewData["Title"] = "Requests";
+}
+
+<div class="container p-4">
+    <h6 class="text-success text-center">
+        @TempData["SuccessMsg"]
+        @TempData["ErrorMsg"]
+    </h6>
+    <div class="row p-3">
+        <div class="col-6">
+            <h2>Requests</h2>
+        </div>
+    </div>
+</div>
+
+<h4>List of Vendors</h4>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>
+                Vendor ID
+            </th>
+            <th>
+                Vendor Name
+            </th>
+            <th>
+                Vendor Email
+            </th>
+            <th>
+                Vendor Contact
+            </th>
+            <th>
+                Vendor Shop Name
+            </th>
+            <th>
+                Approve
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var VenData in Model)
+        {
+            <tr>
+                <td>
+                    @VenData.VendorId
+                </td>
+                <td>
+                    @VenData.VendorName
+                </td>
+                <td>
+                    @VenData.VendorEmail
+                </td>
+                <td>
+                    @VenData.VendorPhone
+                </td>
+                <td>
+                    @VenData.VendorShopName
+                </td>
+                <td role="group">
+                    <a asp-action="Approve" asp-controller="Vendor" asp-route-id="@VenData.Id" style="text-decoration:none"><i class="bi bi-pencil-square"></i> Approve</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="Vendor">Back to List</a>

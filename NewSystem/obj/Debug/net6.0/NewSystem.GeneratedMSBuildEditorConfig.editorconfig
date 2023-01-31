@@ -9,81 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NewSystem
 build_property.RootNamespace = NewSystem
-build_property.ProjectDir = E:\Project\NewSystem\NewSystem\
+build_property.ProjectDir = E:\Project\ExcelToAsp\ExcelToAsp\NewSystem\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Project\NewSystem\NewSystem
+build_property.MSBuildProjectDirectory = E:\Project\ExcelToAsp\ExcelToAsp\NewSystem
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Project/NewSystem/NewSystem/Views/Account/ChangePassword.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Account/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDaGFuZ2VQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Account/Login.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Account/Signup.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Account/Signup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWdudXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Home2/Index.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Home2/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZTJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Home/Index.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Home/Privacy.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Shared/Error.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Vendor/Create.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Vendor/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Vendor/Edit.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Vendor/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Vendor/Index.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Vendor/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Vendor/Requests.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Vendor/Requests.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yXFJlcXVlc3RzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Vendor/ViewVendor.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Vendor/ViewVendor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVuZG9yXFZpZXdWZW5kb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/_ViewImports.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/_ViewStart.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Project/NewSystem/NewSystem/Views/Shared/_Layout.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-uaclz4rrdu
 
-[E:/Project/NewSystem/NewSystem/Views/Shared/_LayoutLoginSignup.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Shared/_LayoutLoginSignup.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRMb2dpblNpZ251cC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = b-5lf0xz9zbt
 
-[E:/Project/NewSystem/NewSystem/Views/Shared/_LayoutVendor.cshtml]
+[E:/Project/ExcelToAsp/ExcelToAsp/NewSystem/Views/Shared/_LayoutVendor.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRWZW5kb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fc1y6ou49z
